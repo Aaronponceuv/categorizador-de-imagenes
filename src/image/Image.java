@@ -53,6 +53,7 @@ public class Image {
         }
     }
 
+    
     public static void main(String[] args) {
         Image image = new Image(args[0],args[1]);
         image.ejecutar();
