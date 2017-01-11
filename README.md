@@ -1,6 +1,7 @@
 # categorizador-de-imagenes
 Categorizador de imagenes basado en Java y Python a traves Clarifai
 
+Instalacion del Servicio Clarifai
 Clarifai API Python Client
 
 Overview
@@ -25,6 +26,7 @@ You can get the id and secret from https://developer.clarifai.com and config the
 $ clarifai config
 CLARIFAI_APP_ID: []: ************************************YQEd
 CLARIFAI_APP_SECRET: []: ************************************gCqT
+
 The config will be stored under ~/.clarifai/config for client's use
 
 Environmental variable CLARIFAI_APP_ID and CLARIFAI_APP_SECRET will override the settings in the config file.
