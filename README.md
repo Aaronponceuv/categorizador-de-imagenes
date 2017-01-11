@@ -24,7 +24,7 @@ The client uses your "CLARIFAI_APP_ID" and "CLARIFAI_APP_SECRET" to get an acces
 You can get the id and secret from https://developer.clarifai.com and config them for client's use by
 
 $ clarifai config
-CLARIFAI_APP_ID: []: ************************************YQEd
+CLARIFAI_APP_ID: []: ************************************YQEd 
 CLARIFAI_APP_SECRET: []: ************************************gCqT
 
 The config will be stored under ~/.clarifai/config for client's use
