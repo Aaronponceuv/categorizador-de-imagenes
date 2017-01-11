@@ -21,9 +21,10 @@ public class Image {
     private String Path_Python; 
     private BufferedReader lectura;
     private InputStream input;
+    private String Path_image;
     
-    public Image(String Path_Python, String Path) {
-        this.Path = Path_Python + " " + Path;
+    public Image(String Path_Python, String Path, String Path_image) {
+        this.Path = Path_Python + " " + Path +" " + Path_image;
         this.lectura = null;
         this.input = null;
     }
@@ -55,7 +56,7 @@ public class Image {
 
     
     public static void main(String[] args) {
-        Image image = new Image(args[0],args[1]);
+        Image image = new Image(args[0],args[1],args[2]);
         image.ejecutar();
         image.mostrar();
     }
